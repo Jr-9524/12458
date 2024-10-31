@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.section-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: flex-start;
+}
+
+.sect{
+    text-align: center;
+    width: 300px;
+    border: black solid;
+    padding: 24px;
+    border-radius: 12px;
+    background-color: aliceblue;
+    font-size: 20px;
+
+    button{
+        padding: 12px 24px;
+        border-radius: 12px;
+        border: none;
+        background-color: dodgerblue;
+        color: aliceblue;
+        font-weight: 900;
+        font-size: 20px;
+        cursor: pointer;
+        transition: opacity 0.5ease;
+    }
+    button:hover{
+        opacity: 0.8;
+    }
+}
+
+/* Student List */
+table{
+    margin: auto;
+    width: 50rem;
+    font-size: 1.2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem;
+    border: solid black;
+    width: fit-content;
+    margin-top: 5rem;
+    padding: 3rem;
+    border-radius: 24px;
+    background-color: rgb(164, 213, 255);
+
+    input{
+        padding: 0.5rem;
+        margin: 12px;
+        border: none;
+        border-radius: 12px;
+        font-size: 1rem;
+    }
+
+    select{
+        padding: 0.5rem;
+        border: #fff solid;
+        border-radius: 12px;
+        font-size: 1rem;
+        margin: 12px;
+    }
+}
+
+.return{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.return button{
+    padding: 12px 20px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 12px;
+    background-color: dodgerblue;
+    color: aliceblue;
+    margin-top: 2rem;
+    cursor: pointer;
+
+    a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+}
+
+.error-message {
+    color: red;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.delBtn{
+    color: red;
+    border-radius: 12px;
+}
